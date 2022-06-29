@@ -1,6 +1,6 @@
 # Age Gender Emotion Detector
 
-This application predicts the age, gender, and emotions of people captured via webcam input. The technique of transfer learning was used by leveraging the already existing neural network architecture [VGGFace](https://machinelearningmastery.com/how-to-perform-face-recognition-with-vggface2-convolutional-neural-network-in-keras/), which employs the original [Vgg16](https://medium.com/@mygreatlearning/what-is-vgg16-introduction-to-vgg16-f2d63849f615) architrecture, but specifically trained for facial recognition. I retrained the model separately to predict the age, gender, and emotion. These models were trained entirely using Google Colab for improved speeds using GPU hardware acceleration.
+This application predicts the age, gender, and emotions of people captured via webcam input. The technique of transfer learning was used by leveraging the already existing neural network architecture [VGGFace](https://machinelearningmastery.com/how-to-perform-face-recognition-with-vggface2-convolutional-neural-network-in-keras/), which employs the original [Vgg16](https://medium.com/@mygreatlearning/everything-you-need-to-know-about-vgg16-7315defb5918) architrecture, but specifically trained for facial recognition. I retrained the model separately to predict the age, gender, and emotion. These models were trained entirely using Google Colab for improved speeds using GPU hardware acceleration.
 
 ## Dataset 
 
