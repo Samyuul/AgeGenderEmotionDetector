@@ -2,6 +2,9 @@
 
 This application predicts the age, gender, and emotions of people captured via webcam input. The technique of transfer learning was used by leveraging the already existing neural network architecture [VGGFace](https://machinelearningmastery.com/how-to-perform-face-recognition-with-vggface2-convolutional-neural-network-in-keras/), which employs the original [Vgg16](https://medium.com/@mygreatlearning/everything-you-need-to-know-about-vgg16-7315defb5918) architrecture, but specifically trained for facial recognition. I retrained the model separately to predict the age, gender, and emotion. These models were trained entirely using Google Colab for improved speeds using GPU hardware acceleration.
 
+![Trial 1](assets/trial1.gif)
+![Trial 2](assets/trial2.gif)
+
 ## Dataset 
 
 The [Adience](https://talhassner.github.io/home/projects/Adience/Adience-data.html) dataset was used to train both the age and gender model. This dataset categorizes each image into male / female for the gender.
